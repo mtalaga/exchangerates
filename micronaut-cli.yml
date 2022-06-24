@@ -1,0 +1,6 @@
+applicationType: default
+defaultPackage: pl.mt
+testFramework: spock
+sourceLanguage: kotlin
+buildTool: gradle_kotlin
+features: [ annotation-api, app-name, gradle, hibernate-validator, http-client, jackson-databind, kotlin, kotlin-application, kotlin-build, log4j2, micronaut-build, netty-server, readme, shade, spock, yaml ]
