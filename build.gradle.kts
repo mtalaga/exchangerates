@@ -30,6 +30,7 @@ dependencies {
     runtimeOnly("org.apache.logging.log4j:log4j-slf4j-impl:2.17.2")
     implementation("io.micronaut:micronaut-validation")
     implementation("org.javamoney:moneta:1.4.2")
+    implementation("io.micronaut.reactor:micronaut-reactor")
 
 
     runtimeOnly("com.fasterxml.jackson.module:jackson-module-kotlin")

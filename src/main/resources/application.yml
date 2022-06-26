@@ -5,3 +5,6 @@ netty:
   default:
     allocator:
       max-order: 3
+openexchangerates:
+  url: https://openexchangerates.org/api/
+  appid: TO_BE_SET
