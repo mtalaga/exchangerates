@@ -5,7 +5,7 @@ import pl.mt.exchange.provider.ExchangeProvider
 import pl.mt.exchange.provider.ExchangeProviderRequest
 
 @Singleton
-class ExchangeService(val exchangeProvider: ExchangeProvider) {
+class ExchangeService(private val exchangeProvider: ExchangeProvider) {
 
     fun exchange(request: ExchangeRequest): ExchangeResponse {
         val response = exchangeProvider.exchange(ExchangeProviderRequest.from(request))

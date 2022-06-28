@@ -3,7 +3,7 @@ package pl.mt.exchange.provider.opexchangerates
 import pl.mt.exchange.provider.openexchangerates.USDToCurrenciesConverter
 import spock.lang.Specification
 
-class USDToCurrenciesConverterTest extends Specification {
+class USDToCurrenciesConverterSpec extends Specification {
 
     void 'should successfully convert values'(String fromCurrency, String toCurrency, BigDecimal value, BigDecimal expectedValue) {
 
